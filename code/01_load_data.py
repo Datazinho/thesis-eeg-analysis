@@ -9,7 +9,7 @@ import mne
 import os
 
 # Διαδρομή του dataset
-DATA_PATH = r"C:\Users\ctsio\OneDrive\Desktop\BNP-My Thesis\me matzako\dataset"
+DATA_PATH = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop", "BNP-My Thesis", "me matzako", "dataset")
 
 # Διαδρομή του πρώτου αρχείου
 file_path = os.path.join(DATA_PATH, "S001", "S001R03.edf")

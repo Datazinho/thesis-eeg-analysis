@@ -9,7 +9,7 @@ import mne
 import os
 
 # Διαδρομή του dataset
-DATA_PATH = r"C:\Users\ctsio\OneDrive\Desktop\BNP-My Thesis\me matzako\dataset"
+DATA_PATH = os.path.join(os.path.expanduser("~"), "OneDrive", "Desktop", "BNP-My Thesis", "me matzako", "dataset")
 
 # Runs που μας ενδιαφέρουν
 RUNS = ["R03", "R04", "R05", "R06", "R07", "R08",
